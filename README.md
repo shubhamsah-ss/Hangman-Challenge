@@ -1,0 +1,16 @@
+# Hangman Challenge
+- create a greeting
+- create your word list
+- create an empty list
+- randomly choose a word from the list you have created
+- for each letter in the secret_word add a "_" that will be printed to the console
+- **Example:** if the word is Hacker "\_","\_","\_","\_","\_","\_"
+- ask the user to guess a letter
+- **bonus** make the program take the input from the user and make it lowercase
+- Loop through each of the letters in the chosen word
+- if the letter is in the word replace the "_" with the letter
+- display the guessed word after every guess
+- it should look like this "\_","a","c","\_","\_","r"
+- use a while loop so your game keeps going until the word has been guessed
+- create a variable as an int starting at 0 and when it gets to the number 5 the game ends
+- add a print statement tell the user they get 5 guesses
